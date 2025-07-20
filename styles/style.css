@@ -26,7 +26,7 @@ ul, ol {
 /* ------------------ Основная страница ------------------ */
 .page {
   width: 1200px;
-  margin: -17px auto 0 auto; 
+  margin: 0 auto; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,7 @@ ul, ol {
   grid-area: result;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 22px;
 }
 
 .result__video-container {
@@ -60,7 +60,7 @@ ul, ol {
   block-size: 386px;
   background-color: black;
   width: 711px;
-  height: 374px;
+  height: 386px;
   position: relative;
 }
 
@@ -68,11 +68,9 @@ ul, ol {
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
-  margin-top: 10px;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center
+  object-position: center;
 }
 
 /* ------------------ Форма ------------------ */
@@ -80,7 +78,6 @@ ul, ol {
   display: flex;
   align-items: flex-start;
   gap: 40px;
-  padding-bottom: 5px;
 }
 
 .search-form__fieldset {
@@ -170,7 +167,7 @@ ul, ol {
   flex-direction: column;
   justify-content: flex-end;
   block-size: 100%;
-  gap: 22px;
+  gap: 26px;
 }
 
 .title {
@@ -180,7 +177,7 @@ ul, ol {
   text-transform: uppercase;
   line-height: 94%;
   color: #fff;
-  margin-top: 35px;
+  margin-top: 28px;
 }
 
 .content__accent {
@@ -271,7 +268,7 @@ ul, ol {
 
 .search-form__submit-button {
   padding: 7px 72px;
-  margin-top: 17px;
+  margin-top: 12px;
 }
 
 /* ------------------ Ссылки и карточки ------------------ */
@@ -312,7 +309,7 @@ ul, ol {
 }
 
 .search-form__textfield:focus-visible {
-  outline: 2px solid white;
+  outline: 1px solid white;
 }
 
 .content__card-link:hover {
@@ -320,7 +317,7 @@ ul, ol {
   text-decoration-color: #fff;
 }
 
-.content__card-link:focus {
+.content__card-link:focus-visible {
   border: 1px solid #fff;
 }
 

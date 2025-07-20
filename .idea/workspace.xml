@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12ce92b2-5b57-4b1d-ac3e-6ca4494a38c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +27,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/38068/OneDrive/Рабочий стол/posmotri-v-okno-fd-main",
     "node.js.detected.package.eslint": "true",
@@ -58,6 +59,7 @@
       <workItem from="1752748567964" duration="50000" />
       <workItem from="1752748995450" duration="307000" />
       <workItem from="1753006445035" duration="10000" />
+      <workItem from="1753028046490" duration="4394000" />
     </task>
     <servers />
   </component>
