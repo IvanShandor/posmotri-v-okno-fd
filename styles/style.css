@@ -26,11 +26,7 @@ ul, ol {
 /* ------------------ Основная страница ------------------ */
 .page {
   width: 1200px;
-<<<<<<< HEAD
-  margin: 0 auto;
-=======
-  margin: -17px auto 0 auto; /* підняли макет на 15px вгору */
->>>>>>> ae325c0 (Початковий коміт)
+  margin: -17px auto 0 auto; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,21 +52,13 @@ ul, ol {
   grid-area: result;
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
-  gap: 16px;
-=======
   gap: 30px;
->>>>>>> ae325c0 (Початковий коміт)
 }
 
 .result__video-container {
   inline-size: 100%;
   block-size: 386px;
   background-color: black;
-<<<<<<< HEAD
-  margin-block-end: 16px;
-=======
->>>>>>> ae325c0 (Початковий коміт)
   width: 711px;
   height: 374px;
   position: relative;
@@ -84,59 +72,34 @@ ul, ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
-<<<<<<< HEAD
-=======
   object-position: center
->>>>>>> ae325c0 (Початковий коміт)
 }
 
 /* ------------------ Форма ------------------ */
 .search-form {
   display: flex;
-<<<<<<< HEAD
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 10px;
-=======
   align-items: flex-start;
   gap: 40px;
   padding-bottom: 5px;
->>>>>>> ae325c0 (Початковий коміт)
 }
 
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
   gap: 10px;
-<<<<<<< HEAD
-  max-width: 225px;
-  max-height: 54px;
-=======
->>>>>>> ae325c0 (Початковий коміт)
   border: none;
 }
 
 .search-form__fieldset-title {
-<<<<<<< HEAD
-  font-family: 'Fira Sans Condensed';
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-=======
   font-family: 'Fira Sans Condensed' sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 80%;
->>>>>>> ae325c0 (Початковий коміт)
   letter-spacing: 0%;
 }
 
 .search-form__textfield {
-<<<<<<< HEAD
-  width: 225px;
-=======
   min-width: 225px;
->>>>>>> ae325c0 (Початковий коміт)
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -151,13 +114,8 @@ ul, ol {
 .search-form__checkbox-list {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
-  gap: 16px;
-  font-family: 'Fira Sans Condensed';
-=======
   gap: 11.5px;
   font-family: 'Fira Sans Condensed' sans-serif;
->>>>>>> ae325c0 (Початковий коміт)
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -177,31 +135,6 @@ ul, ol {
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
-<<<<<<< HEAD
-  border: 2px solid white;
-  border-radius: 2px;
-  background-color: transparent;
-  margin-right: 8px;
-  display: inline-block;
-  transition: background-color 0.2s ease, transform 0.1s ease;
-  flex-shrink: 0;
-}
-
-.search-form__checkbox:checked + .search-form__pseudo-checkbox {
-  background-color: rgba(255, 255, 255, 0.9);
-  transform: scale(0.95);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-=======
   border: 1px solid #fff;
   background-color: transparent;
   display: inline-flex;
@@ -228,7 +161,6 @@ ul, ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
->>>>>>> ae325c0 (Початковий коміт)
 }
 
 /* ------------------ Правая часть: детали ------------------ */
@@ -259,10 +191,6 @@ ul, ol {
 .content__list-container {
   height: 298px;
   overflow-y: auto;
-<<<<<<< HEAD
-  overflow-x: hidden;
-=======
->>>>>>> ae325c0 (Початковий коміт)
   position: relative;
 }
 
@@ -343,29 +271,19 @@ ul, ol {
 
 .search-form__submit-button {
   padding: 7px 72px;
-<<<<<<< HEAD
-  margin-top: 20px;
-=======
   margin-top: 17px;
->>>>>>> ae325c0 (Початковий коміт)
 }
 
 /* ------------------ Ссылки и карточки ------------------ */
 .content__card-link {
-<<<<<<< HEAD
-  text-decoration: none;
-}
-
-=======
   display: block;
   text-decoration: none;
 }
 
-.content__card-link_current:active{
+.content__card-link_current .content__video-card{
   background-color: #545050;
 }
 
->>>>>>> ae325c0 (Початковий коміт)
 /* ------------------ Кастомный скроллбар ------------------ */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
@@ -390,71 +308,32 @@ ul, ol {
 }
 
 .button:focus-visible {
-<<<<<<< HEAD
-  border: 2px solid #fff;
-=======
   border: 1px solid #fff;
->>>>>>> ae325c0 (Початковий коміт)
 }
 
 .search-form__textfield:focus-visible {
   outline: 2px solid white;
 }
 
-<<<<<<< HEAD
-.content__video-card-title:hover,
-.content__video-card-description:hover {
-  text-decoration: underline;
-}
-
-.content__video-card-title:focus {
-  border: 2px solid #fff;
-=======
 .content__card-link:hover {
   text-decoration: underline;
   text-decoration-color: #fff;
 }
 
-..content__card-link:focus {
+.content__card-link:focus {
   border: 1px solid #fff;
->>>>>>> ae325c0 (Початковий коміт)
 }
 
 .content__card-link:active .content__video-card {
   background-color: #545050;
 }
 
-<<<<<<< HEAD
-.search-form__label:hover {
-=======
 .search-form__label:hover .search-form__label-text {
->>>>>>> ae325c0 (Початковий коміт)
   text-decoration: underline;
 }
 
 .search-form__label:focus-visible {
-<<<<<<< HEAD
-  border: 2px solid #fff;
-}
-
-/* ------------------ Прелоадер ------------------ */
-=======
   border: 1px solid #fff;
 }
 
-/* ------------------ Прелоадер ------------------ 
->>>>>>> ae325c0 (Початковий коміт)
-.preloader {
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-  pointer-events: none;
-}
-<<<<<<< HEAD
-=======
-*/
->>>>>>> ae325c0 (Початковий коміт)
+
